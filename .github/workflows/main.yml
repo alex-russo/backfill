@@ -10,9 +10,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_EMAIL: alex@alexrusso.me
-        MAX_DAYS: 315
+        MAX_DAYS: 345
         MIN_COMMITS_PER_DAY: 0
         MAX_COMMITS_PER_DAY: 1
         ORIGIN_TIMESTAMP: 1608483720
-        INCLUDE_WEEKENDS: true
+        INCLUDE_WEEKENDS: false
         INCLUDE_WEEKDAYS: true
